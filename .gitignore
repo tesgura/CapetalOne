@@ -1,0 +1,22 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/JusticePack.CapetalOne.BusinessLogic/bin
+/src/JusticePack.CapetalOne.BusinessLogic/obj
+/src/JusticePack.CapetalOne.BusinessLogic.Core/bin
+/src/JusticePack.CapetalOne.BusinessLogic.Core/obj
+/src/JusticePack.CapetalOne.CrossCutting.Identity/bin
+/src/JusticePack.CapetalOne.CrossCutting.Identity/obj
+/src/JusticePack.CapetalOne.CrossCutting.IoC/bin
+/src/JusticePack.CapetalOne.CrossCutting.IoC/obj
+/src/JusticePack.CapetalOne.DataAccess.Core/bin
+/src/JusticePack.CapetalOne.DataAccess.Core/obj
+/src/JusticePack.CapetalOne.DataAccess.DynamoDb/bin
+/src/JusticePack.CapetalOne.DataAccess.DynamoDb/obj
+/src/JusticePack.CapetalOne.Presentation/bin
+/src/JusticePack.CapetalOne.Presentation/obj
+/src/JusticePack.CapetalOne.Util.Options/bin
+/src/JusticePack.CapetalOne.Util.Options/obj
+

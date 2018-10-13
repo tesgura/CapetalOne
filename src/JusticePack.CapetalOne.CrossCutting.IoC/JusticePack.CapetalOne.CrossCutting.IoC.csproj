@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JusticePack.CapetalOne.BusinessLogic\JusticePack.CapetalOne.BusinessLogic.csproj" />
+    <ProjectReference Include="..\JusticePack.CapetalOne.CrossCutting.Identity\JusticePack.CapetalOne.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\JusticePack.CapetalOne.DataAccess.DynamoDb\JusticePack.CapetalOne.DataAccess.DynamoDb.csproj" />
+  </ItemGroup>
+
+</Project>
